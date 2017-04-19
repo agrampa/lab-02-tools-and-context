@@ -7,3 +7,5 @@ console.log(order.basicSandwichOrder('Allie', 'turkey', 'rye', 'swiss'));
 console.log(order.specialtySandwich('Dave', 'turkey', 'sourdough', 'provolone'));
 
 console.log(order.miniSandwich('Sofia', 'ham', 'white'));
+
+console.log(order.glutenFree('Gary', 'salami', 'cheddar'));

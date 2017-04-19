@@ -26,3 +26,8 @@ exports.miniSandwich = function(name, meat, bread) {
   this.cutInHalf = false;
   return `${name} would like a ${meat} sandwich on ${bread}.`;
 };
+
+exports.glutenFree = function(name, meat, cheese) {
+  exports.basicSandwichOrder.bind(this, name, meat, cheese);
+  return `${name} would like a ${meat} sandwich on gluten-free bread with ${cheese}.`;
+};
