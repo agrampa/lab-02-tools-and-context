@@ -1,0 +1,29 @@
+{
+  "name": "lab-02-tools-and-context",
+  "version": "1.0.0",
+  "description": "Lab 2, call, apply, bind",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrampa/lab-02-tools-and-context.git"
+  },
+  "keywords": [
+    "mocha",
+    "call",
+    "apply",
+    "bind"
+  ],
+  "author": "Allie Grampa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agrampa/lab-02-tools-and-context/issues"
+  },
+  "homepage": "https://github.com/agrampa/lab-02-tools-and-context#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
